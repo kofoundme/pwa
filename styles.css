@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* max-width: 100%; */
+  
 }
 
 /* **************************NAV SECTION**************************** */
@@ -96,7 +96,7 @@ line-height: 2;
 }  
 
 .start-up-logo {
-    margin-bottom: 10%;
+    margin-bottom: 7%;
 }
 
 /* ******************************MID SECTION************************************* */
