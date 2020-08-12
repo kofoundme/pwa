@@ -5,12 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- font awesome -->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+
     <!-- bootstrap link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <!-- css link -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile.css">
+
 
     <title>Document</title>
 </head>
@@ -18,51 +23,49 @@
 <body>
 
 
-    <header class="pt-3">
-        <!-- nav section -->
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="container-fluid">
-                <a class="navbar-brand text-primary font-weight-bolder" href="#">
-                    <!-- logo link -->
-                    <img src="assets/Kofoundme Logo 1.png"> </a>
-
-
-                <button class="navbar-toggler navbar-toggler-right font-weight-bold" type="button"
-                    data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-
-                    <i class="fas fa-bars"></i>
-                </button>
-
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item ">
-                            <a class="nav-link" href="#">About </a>
-                            <!-- <span class="sr-only">(current)</span> -->
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">How it works</a>
-                        </li>
-
-
-                        <li class="nav-item mr-1">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-
-                    </ul>
-
-                    <div class="btn-style ">
-                        <button class="btn btn-1 my-2 my-sm-0 btn-lg mr-2" type="submit">login</button>
-
-                        <button class="btn  btn-2 my-2 my-sm-0 btn-lg   ml-2" type="submit">Sign up</button>
-
-                    </div>
-                </div>
-            </div>
-        </nav>
         <!-- end of nav section -->
         <!-- NEXT PART OF THE HEADER -->
+        <header class="pt3">
+
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-primary font-weight-bolder" href="#"> 
+                        <!-- logo link -->
+                         <img src="assets/Kofoundme Logo 1.png"> </a> 
+    
+    
+                        <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Togglenavigation">
+                        <span class="navbar-toggler-icon 4x"></span>
+                      </button>
+    
+                      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav ml-auto ml-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link " href="#">About </a> 
+                                <!-- <span class="sr-only">(current)</span> -->
+                             </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">How it works</a>
+                            </li> 
+    
+    
+                            <li class="nav-item mr-1">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+    
+                        </ul>
+    
+                        <div class="btn-style ">
+                            <button class="btn btn-1 my-2 my-sm-0 btn-lg mr-2 " type="submit">login</button>
+    
+                            <button class="btn  btn-2 my-2 my-sm-0 btn-lg   ml-2 " type="submit">Sign up</button>
+    
+                        </div>
+                    </div>
+                </div>
+            </nav> 
 
         <div class="container-fluid hero-text text-center head-boy pt-5">
             <h1>Co-founding Made Me better.</h1>
@@ -72,12 +75,6 @@
             </button>
 
         </div>
-
-
-        <!-- <div class="hero-image">
-    <img src="./assets/Landing Page Illustration 1.png" alt="">
-</div> -->
-
     </header>
 
     <div class="start-up-logo text-center">
@@ -111,11 +108,11 @@
     </section>
 
 
-    <section class="about-us container-fluid">
+    <section class="about-us container">
         <div class="row">
             <div class="col-md-6">
                 <h3>
-                    About Us
+                    About Us.
                 </h3>
 
                 <p>
@@ -125,14 +122,14 @@
                     with the right talent fit. Through Kofoundme, founders can get complementary founding team members
                     across the following roles:
 
-                    <div class="row">
-                        <ul class="col-2">
+                    <div class="row ">
+                        <ul class="col-3 m-1 mt-0 ">
                             <li> Technology </li>
                             <li> Operations</li>
 
                         </ul>
 
-                        <ul class="col-2">
+                        <ul class="col-3  m-1 mt-0">
                             <li> Growth</li>
                             <li> Funding</li>
                         </ul>
@@ -205,65 +202,151 @@
     </section>
 
 
-    <section class="testimonials text-center" style="margin: auto;">
+    <section class="testimonials text-center container-fluid " style="margin: auto;">
 
         <h3>Some of our members have this to say.</h3>
-        <div class="container text-center card-holer ">
-            <div class="row ">
-                <!-- card 1 -->
 
-                <div class=" text-center">
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <div class="card mr-3" >
-                            <img class="card-img-top img-circle rounded-circle" src="./assets/Mask Group (1).png"
-                                alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Theresa Doe</h4>
-                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum ut eum aspernatur repudiandae, officiis ducimus.</p>
-                            </div>
-                        </div>
+        <div class="row">
+            <!-- card 1 -->
+
+            <div class="col-md-4 col-12 text-center">
+                <div class="card mt-2 d-inline-block shadow card-2">
+                    <div class="card-img-top">
+                        <img src="./assets/Mask Group (1).png" class="img-fluid rounded-circle w-50 p-1" alt="">
                     </div>
-                </div>
-
-                <!-- card 2 -->
-                <div class=" text-center">
-                    <div class="col-lg-4  col-md-4 col-12">
-                        <div class="card mr-3" >
-                            <img class="card-img-top img-circle rounded-circle" src="./assets/Mask Group (2).png"
-                                alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title pt-5">John Doe</h4>
-                                <p class="card-position"></p>
-                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio iure debitis quidem sapiente quibusdam. Repellendus.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- card-3 -->
-
-                <div class=" text-center">
-                    <div class="col-lg-4  col-md-4 col-12">
-                        <div class="card" >
-                            <img class="card-img-top img-circle rounded-circle w" src="./assets/Mask Group.png"
-                                alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Isaac Doe</h4>
-                                <p class="card-position"></p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, explicabo totam quibusdam repellendus natus sapiente?</p>
-                            </div>
-                        </div>
+                    <div class="card-body">
+                        <h3 class="card-title ">jane Doe</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
+                            recusandae, veniam, illo
+                            dolor soluta assumenda
+                            minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis
+                            quasi voluptas!
+                        </p>
                     </div>
                 </div>
             </div>
+
+            <!-- card 2 -->
+
+            <div class="col-md-4 col-12 text-center">
+                <div class="card mt-2 d-inline-block shadow card-2">
+                    <div class="card-img-top">
+                        <img src="./assets/Mask Group (2).png" class="img-fluid rounded-circle w-50 p-1" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">John Doe</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
+                            recusandae, veniam, illo
+                            dolor soluta assumenda
+                            minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis
+                            quasi voluptas!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- card 3 -->
+            <div class="col-md-4 col-12 text-center">
+                <div class="card mt-2 d-inline-block shadow card-2" >
+                    <div class="card-img-top">
+                        <img src="./assets/Mask Group.png" class="img-fluid rounded-circle w-50 p-1" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Isaac Doe</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
+                            recusandae, veniam, illo
+                            dolor soluta assumenda
+                            minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis
+                            quasi voluptas!
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <section class="contact-us">
+        <div class="container text-center">
+
+            <h3>Contact us.</h3>
+            <div class="form">
+                <form action="mailto:coolbuhzor@gmail.com">
+                    <div>
+                        <input class="shadow" type="text" name="" id="" placeholder="First name">
+                    </div>
+                    <div>
+                        <input class="shadow" type="text" name="" id="" placeholder="Last name">
+                    </div>
+                    <div>
+                        <input class="shadow" type="email" name="" id="" placeholder="Email address">
+                    </div>
+
+                    <div>
+                        <textarea class="shadow" name="" id="" cols="30" rows="4" placeholder="Description"></textarea>
+                    </div>
+
+
+                    <p>please note. you will also be suscribing to our newsletter by clicking send</p>
+                    <input class="submit" type="submit" value="submit" id="submit">
+
+                </form>
+            </div>
+
+
+
+            <!-- <button>
+                submit
+            </button> -->
+
         </div>
     </section>
 
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 pt-2 ">
+                    <p>
+                        Copyright © 2020 Founder School by ASIN5. All Rights Reserved. <br>
+                        Privacy Policy | Terms of Service
+                    </p>
+                </div>
+                <div class="col-md-6">
+
+                    <div class="social-icon  mr-auto pt-2">
+                        <p>Follow us</p>
+                        <a class="btn btn-outline-light btn-social mx-1 fa-3x" href="#" target="_blank"><i
+                                class="fab fa-fw fa-facebook-f"></i></a>
+
+                        <a class="btn btn-outline-light btn-social mx-1" href="#" target="_blank"><i
+                                class="fab fa-fw fa-instagram"></i></a>
+
+                        <a class="btn btn-outline-light btn-social mx-1" href="#" target="_blank"> <i
+                                class=" social-icon fab fa-twitter"> </i></a>
+
+                        <a class="btn btn-outline-light btn-social mx-1 fa-3x" href="#" target="_blank">
+                            <i class="fab fa-linkedin-in"></i></a>
+
+                        <a class="btn btn-outline-light btn-social mx-1" href="#" target="_blank">
+                            <i class="fab fa-fw fa-youtube"></i></a>
+
+                        <a class="btn btn-outline-light btn-social mx-1" href="#" target="_blank">
+                            <i class="fab fa-medium-m"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
 </body>
-  <!-- Your Javascript/Jquery tags -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <!-- <link rel="stylesheet" href="../js/fontawesome.min.js"> -->
-  <script src="../js/bootstrap.min.js"></script>
-  <script src="./main.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 </html>
