@@ -60,7 +60,7 @@
         padding: 0.6em;
     }
 
-/* ******************************GE STARTED CARD********************************** */
+    /* ******************************GE STARTED CARD********************************** */
 
 
 .get-started .card {
@@ -96,7 +96,7 @@
     
     .mid-section-content p {
         text-align: center;
-        font-size: 18px;
+        font-size: 18      px;
         font: normal;
     }
     
@@ -124,7 +124,7 @@
         padding: 2%;
         line-height: 2;
         border-radius: 10px;
-        border: 0.5px solid #18A0FB ; 
+         border: 0.5px solid #18A0FB ;  
     
     
     
@@ -244,6 +244,14 @@
     .mid-section-content img {
         width: 200px;
         align-content: center;
+    }
+
+
+
+    /* *********************************testimonial card******************************* */
+
+    .testimonial .card {
+        border: none ;
     }
 
 }
