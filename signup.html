@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;900&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>sign in ko-found-me</title>
+</head>
+<body class="container-fluid">
+    <header>
+        
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+                <a class="navbar-brand text-primary font-weight-bolder" href="./index.html"> 
+                    <!-- logo link -->
+                     <img src="assets/Kofoundme Logo 1.png"> </a> 
+
+
+                    <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Togglenavigation">
+                    <span class="navbar-toggler-icon 4x"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link " href="#">About </a> 
+                            <!-- <span class="sr-only">(current)</span> -->
+                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">How it works</a>
+                        </li> 
+
+
+                        <li class="nav-item mr-1">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+
+                    </ul>
+
+                    <div class="btn-style ">
+                        <a href="./signin.html"> <button class="btn btn-1 my-2 my-sm-0 btn-lg mr-2 " type="submit">Login</button></a>
+
+                        <a href="./signup.html"><button class="btn  btn-2 my-2 my-sm-0 btn-lg   ml-2 " type="submit">Sign up</button></a>
+
+                    </div>
+                </div>
+            </div>
+        </nav> 
+    </header>
+    <main>
+        <section class="section-container">
+            <div class="container div-container">
+               <h1 class="Get-Started m-5">Get Started</h1>
+               <form action="/action_page.php">
+                  <div class="form">
+                     <div class="input-container user-container">
+                        <i class="fa fa-user icon form-icon"></i>
+                        <input class="input-field no-outline" type="text" placeholder="Full Name" name="usrnm">
+                     </div>
+                     <div class="input-container icon-container">
+                        <i class="fa fa-envelope icon"></i>
+                        <input class="input-field no-outline" type="text" placeholder="Email" name="email">
+                     </div>
+                     <div class="input-container password-container">
+                        <i class="fa fa-lock icon form-icon"></i>
+                        <input class="input-field no-outline" type="password" placeholder="Password" name="password"
+                           id="password">
+                        <!-- <i class="fa fa-eye" id="togglePassword" style="float: right; padding-top: 10px;"></i> -->
+                     </div>
+                  </div>
+                  <div class="form-bottom-text checkbox">
+                     <div class="checkbox">
+                         <input type="checkbox" id="checkbox" name="" value=""> 
+                        <label for="checkbox" class="agreement-paragraph"><span>I Agree to StuWork’s Terms and
+                              Conditions</span></label>
+                     </div>
+                     <button class="btn-primary form-signup btn-lg">Sign Up</button>
+                  </div>
+               </form>
+               <p class="text-center pt-3 pb-0 small-text">
+                  Already have an account ? <a href="./signin.html">
+                     <b>Sign in</b>
+                  </a>
+               </p>
+      
+               <p class="form-text">Are you Hiring? <span style="border-bottom: 3px #0084F4 solid;">Post Jobs</span></p>
+            </div>
+         </section>
+    </main>
+    
+
+    <footer>
+        
+<footer class="container-fluid footer">
+    <!-- <section class="footer"> -->
+        <div >
+            <div class="row">
+                <div class="col-md-6 pt-2 ">
+                    <p>
+                        Copyright © 2020 Kofound me. All rights reserved. <br>
+                        Privacy Policy | Terms of Service
+                    </p>
+                </div>
+                <div class="col-md-6">
+
+                    <div class="social-icon  mr-auto pt-2">
+                        <p>Follow us</p>
+                        <a class="btn btn-outline-light btn-social mx-1 fa-3x" href="#" target="_blank"><i
+                                class="fab fa-fw fa-facebook-f"></i></a>
+
+                        <a class="btn btn-outline-light btn-social mx-1" href="#" target="_blank"><i
+                                class="fab fa-fw fa-instagram"></i></a>
+
+                        <a class="btn btn-outline-light btn-social mx-1" href="#" target="_blank"> <i
+                                class=" social-icon fab fa-twitter"> </i></a>
+
+                        <a class="btn btn-outline-light btn-social mx-1 fa-3x" href="#" target="_blank">
+                            <i class="fab fa-linkedin-in"></i></a>
+
+                        <a class="btn btn-outline-light btn-social mx-1" href="#" target="_blank">
+                            <i class="fab fa-fw fa-youtube"></i></a>
+
+                        <!-- <a class="btn btn-outline-light btn-social mx-1" href="#" target="_blank">
+                            <i class="fab fa-medium-m"></i></a> -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+<!-- 
+    </section> -->
+</footer>
+    </footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</html>
