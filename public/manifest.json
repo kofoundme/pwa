@@ -1,0 +1,39 @@
+{
+  "short_name": "KoFoundMe",
+  "name": "KoFoundMe",
+  "description": "easily find shared vision and complementary skill-sets to help you co-found your business ideas",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "display": "fullscreen",
+  "scope": "/",
+  "theme_color": "#3E4095",
+  "background_color": "#ffffff",
+  "shortcuts": [
+    {
+      "name": "KoFoundMe | Login",
+      "short_name": "Login",
+      "description": "Login to KoFoundMe",
+      "url": "/login?source=pwa",
+      "icons": [{ "src": "/images/logo.png", "sizes": "192x192" }]
+    }
+  ]
+}
