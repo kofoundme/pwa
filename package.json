@@ -19,10 +19,10 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/coolbuhzor/ko-found-me.git"
   },
   "bugs": {
-    "url": "https://"
+    "url": "https://github.com/coolbuhzor/ko-found-me/issuees"
   },
   "directories": {
     "test": "__tests__"
@@ -69,7 +69,9 @@
     "start": "serve -s build",
     "dev": "npm run check && set PORT=3000 && react-scripts start",
     "dev:secure": "npm run check && set PORT=3000 && cross-env HTTPS=true react-scripts start",
-    "prod": "npm run build && serve -s build"
+    "prod": "npm run build && serve -s build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
@@ -88,5 +90,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://github.com/coolbuhzor/ko-found-me"
 }
