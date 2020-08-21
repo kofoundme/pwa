@@ -10,7 +10,7 @@ import 'assets/css/app.css';
 
 // Start && Export Component
 export default class App extends React.Component {
-  render = () => <Router>
+  render = () => <Router basename="/pwa">
     <Route exact path="/" component={Home} />
   </Router>
 }

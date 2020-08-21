@@ -1,7 +1,7 @@
 {
   "name": "kofoundme",
   "version": "0.1.0",
-  "description": "easily find shared vision and complementary skill-sets to help you co-found your business ideas",
+  "description": "Easily find shared vision and complementary skill-sets to help you co-found your business ideas",
   "keywords": [
     "easily",
     "share",
@@ -12,17 +12,17 @@
     "co-found",
     "business"
   ],
-  "private": true,
+  "private": false,
   "author": {
     "name": "KoFoundMe",
     "email": "kofoundme@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/coolbuhzor/ko-found-me.git"
+    "url": "https://github.com/kofoundme/pwa.git"
   },
   "bugs": {
-    "url": "https://github.com/coolbuhzor/ko-found-me/issuees"
+    "url": "https://github.com/kofoundme/pwa/issues"
   },
   "directories": {
     "test": "__tests__"
@@ -80,16 +80,8 @@
     "eslint-plugin-react": "^7.20.0"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
   },
-  "homepage": "https://coolbuhzor.github.io/ko-found-me"
+  "homepage": "https://kofoundme.github.io/pwa"
 }

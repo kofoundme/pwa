@@ -31,13 +31,13 @@ export default class Footer extends Component {
             </p>
           </Col>
           <Col className="text-right mt-4 mt-lg-0">
-            <p className="text-white">
+            <div className="text-white">
               Follow us
               <br />
               <ul>
                 {this.renderList()}
               </ul>
-            </p>
+            </div>
           </Col>
         </Row>
       </article>
