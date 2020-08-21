@@ -1,0 +1,72 @@
+.section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section .title {
+  line-height: 75px;
+}
+
+#howItWorks .card,
+#testimonials .card {
+  position: relative;
+  border: none;
+}
+
+#howItWorks .card:nth-child(2n-1),
+#testimonials .card:nth-child(2n-1) {
+  background: #7da9ff;
+}
+
+#howItWorks .card:nth-child(2n-1) .sub-title,
+#howItWorks .card:nth-child(2n-1) .body,
+#testimonials .card:nth-child(2n-1) .sub-title,
+#testimonials .card:nth-child(2n-1) .body {
+  color: #fff;
+}
+
+#testimonials .card .img-holder {
+  position: absolute;
+  top: -50px;
+  width: 100%;
+  left: 0;
+}
+
+#testimonials .card .img-holder img {
+  margin: 0 auto;
+}
+
+#contact form {
+}
+
+#contact form label {
+  display: none;
+}
+
+#contact form .d-flex {
+  box-shadow: 0px 4px 4px 4px rgba(128, 164, 233, 0.1);
+  padding: 0px 20px 0 0px;
+}
+
+#contact form .d-flex .form-control {
+  border-radius: 0;
+  padding: 20px 10px;
+  border: none;
+  height: auto;
+
+  transition: all 0.5s;
+}
+
+#contact form .form-control:focus,
+#contact form .form-control:hover {
+  border-bottom: 2px solid #af3d5e;
+  box-shadow: none;
+}
+
+@media (min-width: 992px) {
+  #logos {
+    margin-top: 460px;
+  }
+}

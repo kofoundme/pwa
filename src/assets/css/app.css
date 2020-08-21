@@ -1,6 +1,7 @@
 /* CSS Document */
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Avenir', sans-serif;
+  color: #000000;
   box-sizing: border-box;
   word-wrap: break-word;
   transition: all 0.05s;
@@ -8,83 +9,82 @@
 
 body#body,
 html {
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   overflow-x: hidden;
 }
 
-body#body main #app h1,
-body#body main #app h2,
-body#body main #app h3,
-body#body main #app h4,
-body#body main #app h5,
-body#body main #app h6 {
-  font-family: 'Roboto', serif;
+#root h1,
+#root h2,
+#root h3,
+#root h4,
+#root h5,
+#root h6 {
+  font-weight: 900;
 }
 
-
-body#body main #app a {
+#root a {
   text-decoration: none;
   color: inherit;
   box-shadow: none;
   background: inherit;
 }
 
-body#body main #app a,
-body#body main #app a:hover,
-body#body main #app a.active {
+#root a,
+#root a:hover,
+#root a.active {
   color: #000000;
 }
 
-body#body main #app a:hover,
-body#body main #app a.active {
+#root a:hover,
+#root a.active {
   font-weight: 600;
 }
 
-body#body main #app p {
+#root p {
   margin: 0;
 }
 
-body#body main #app .pointer {
+#root .pointer {
   box-shadow: none;
   cursor: pointer;
 }
 
-body#body main #app .btn,
-body#body main #app button,
-body#body main #app .btn:focus,
-body#body main #app button:focus,
-body#body main #app .btn:hover,
-body#body main #app button:hover {
-  font-weight: 500;
+#root .btn,
+#root button,
+#root .btn:focus,
+#root button:focus,
+#root .btn:hover,
+#root button:hover {
+  font-weight: 900;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   border: none;
 }
 
-body#body main #app .form-control,
-body#body main #app .form-control:-webkit-autofill,
-body#body main #app .form-control:-webkit-autofill:hover,
-body#body main #app .form-control:-webkit-autofill:focus,
-body#body main #app .form-control:-webkit-autofill:active {
+#root .form-control,
+#root .form-control:-webkit-autofill,
+#root .form-control:-webkit-autofill:hover,
+#root .form-control:-webkit-autofill:focus,
+#root .form-control:-webkit-autofill:active {
   box-shadow: none;
   -webkit-box-shadow: 0 0 0 100 #fff inset;
   font-family: 'Montserrat', sans-serif;
 }
 
-body#body main #app .border-primary {
+#root .border-primary {
   border-color: #000000;
 }
 
-body#body main #app .clear {
+#root .clear {
   clear: both;
 }
 
-body#body main #app .v-parent {
+#root .v-parent {
   position: relative;
   width: 100%;
 }
 
-body#body main #app .v-child {
+#root .v-child {
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
@@ -93,12 +93,46 @@ body#body main #app .v-child {
   width: 100%;
 }
 
-body#body main #app .d-fixed {
+#root .d-fixed {
   position: fixed;
   bottom: 0;
   right: 0;
 }
 
-body#body main #app .img-holder {
+#root .img-holder {
   overflow: hidden;
+}
+
+#root button.btn.btn-primary,
+#root .bg-primary,
+#root #footer.bg-primary {
+  background: #3e4095 !important;
+}
+
+#root button.btn.btn-danger {
+  background: #af3d5e;
+}
+
+#root .bg-light {
+  background: #f6f6f6;
+}
+
+#root .text-danger {
+  color: #af3d5e;
+}
+
+#root footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#root footer ul li {
+  width: 40px;
+  height: 40px;
+  font-size: 1.3rem
+}
+
+#root footer ul li path {
+  color: #fff !important
 }

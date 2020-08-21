@@ -33,7 +33,7 @@
       "short_name": "Login",
       "description": "Login to KoFoundMe",
       "url": "/login?source=pwa",
-      "icons": [{ "src": "/images/logo.png", "sizes": "192x192" }]
+      "icons": [{ "src": "/static/img/logo.png", "sizes": "192x192" }]
     }
   ]
 }

@@ -10,10 +10,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 import store from 'redux/store.js';
 
 // Service worker
-import * as serviceWorker from 'serviceWorker.js';
+// import * as serviceWorker from 'serviceWorker.js';
 
 // App component
-import App from './app.js';
+import App from 'app';
 
 // DOM render
 ReactDOM.render(
@@ -24,6 +24,6 @@ ReactDOM.render(
 );
 
 // Load service worker only in production environment
-if (process.env.NODE_ENV === 'production') {
-  serviceWorker.unregister();
-}
+// if (process.env.NODE_ENV === 'production') {
+//   serviceWorker.unregister();
+// }
