@@ -10,7 +10,7 @@ import arrow from 'assets/img/arrow.png';
 // Start && Export Component
 export default class Banner extends Component {
   render = () => (
-      <Container className="bg-light py-5 section " fluid id="banner">
+      <Container className="bg-light section " fluid id="banner">
         <Row className="justify-content-center align-items-center text-center">
           <Col xs="12" sm className="mb-5 mb-sm-0">
             <h3 className="text-danger">32+</h3>
