@@ -1,6 +1,7 @@
 /* CSS Document */
 html,
-body, main {
+body,
+main {
   height: 100%;
 }
 
@@ -9,8 +10,8 @@ body {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -120,5 +121,5 @@ footer ul li {
 }
 
 footer ul li path {
-  color: #fff !important;
+  color: #fff;
 }
