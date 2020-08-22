@@ -1,90 +1,76 @@
 /* CSS Document */
-* {
-  font-family: 'Avenir', sans-serif;
-  color: #000000;
+html,
+body, main {
+  height: 100%;
+}
+
+body {
   box-sizing: border-box;
-  word-wrap: break-word;
-  transition: all 0.05s;
 }
 
-body#body,
-html {
-  /* height: 100%; */
-  width: 100%;
-  overflow-x: hidden;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
-#root h1,
-#root h2,
-#root h3,
-#root h4,
-#root h5,
-#root h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 900;
 }
 
-#root a {
+a {
   text-decoration: none;
-  color: inherit;
-  box-shadow: none;
-  background: inherit;
-}
-
-#root a,
-#root a:hover,
-#root a.active {
   color: #000000;
 }
 
-#root a:hover,
-#root a.active {
+a:hover,
+a.active {
+  color: #000000;
   font-weight: 600;
 }
 
-#root p {
+p {
   margin: 0;
 }
 
-#root .pointer {
-  box-shadow: none;
+.pointer {
   cursor: pointer;
 }
 
-#root .btn,
-#root button,
-#root .btn:focus,
-#root button:focus,
-#root .btn:hover,
-#root button:hover {
+.btn,
+button,
+.btn:focus,
+button:focus,
+.btn:hover,
+button:hover {
   font-weight: 900;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-  border: none;
 }
 
-#root .form-control,
-#root .form-control:-webkit-autofill,
-#root .form-control:-webkit-autofill:hover,
-#root .form-control:-webkit-autofill:focus,
-#root .form-control:-webkit-autofill:active {
+.form-control,
+.form-control:-webkit-autofill,
+.form-control:-webkit-autofill:hover,
+.form-control:-webkit-autofill:focus,
+.form-control:-webkit-autofill:active {
   box-shadow: none;
   -webkit-box-shadow: 0 0 0 100 #fff inset;
   font-family: 'Montserrat', sans-serif;
 }
 
-#root .border-primary {
-  border-color: #000000;
-}
-
-#root .clear {
+.clear {
   clear: both;
 }
 
-#root .v-parent {
+.v-parent {
   position: relative;
   width: 100%;
 }
 
-#root .v-child {
+.v-child {
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
@@ -93,46 +79,46 @@ html {
   width: 100%;
 }
 
-#root .d-fixed {
+.d-fixed {
   position: fixed;
   bottom: 0;
   right: 0;
 }
 
-#root .img-holder {
+.img-holder {
   overflow: hidden;
 }
 
-#root button.btn.btn-primary,
-#root .bg-primary,
-#root #footer.bg-primary {
+button.btn.btn-primary,
+.bg-primary,
+#footer.bg-primary {
   background: #3e4095 !important;
 }
 
-#root button.btn.btn-danger {
+button.btn.btn-danger {
   background: #af3d5e;
 }
 
-#root .bg-light {
+.bg-light {
   background: #f6f6f6;
 }
 
-#root .text-danger {
+.text-danger {
   color: #af3d5e;
 }
 
-#root footer ul {
+footer ul {
   list-style: none;
   display: flex;
   justify-content: flex-end;
 }
 
-#root footer ul li {
+footer ul li {
   width: 40px;
   height: 40px;
-  font-size: 1.3rem
+  font-size: 1.3rem;
 }
 
-#root footer ul li path {
-  color: #fff !important
+footer ul li path {
+  color: #fff !important;
 }

@@ -4,13 +4,10 @@ import {
   Container, Button, Jumbotron, Row, Col
 } from 'react-bootstrap';
 
-// Asset imports
-import jumbo from 'assets/svg/jumbo.svg';
-
 // Start & Export Component
 export default class Jumbo extends Component {
   render = () => (
-    <Jumbotron className="bg-white mb-0" fluid>
+    <Jumbotron className="mb-0 section" id="jumbo" fluid>
       <Container className="justify-content-center text-lg-center">
         <Row>
           <Col lg={{ span: 8, offset: 2 }} className="px-3 px-md-0">
@@ -24,17 +21,6 @@ export default class Jumbo extends Component {
                 Find a co-founder
               </Button>
             </a>
-          </Col>
-        </Row>
-      </Container>
-      <Container fluid>
-        <Row>
-          <Col
-            lg="12"
-            className="d-none d-lg-flex position-absolute px-0"
-            style={{ top: '2%', width: '100%' }}
-          >
-            <img src={jumbo} alt="" className="" />
           </Col>
         </Row>
       </Container>

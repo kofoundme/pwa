@@ -17,7 +17,7 @@ import virtualting from 'assets/img/logos/virtualting.png';
 
 export default class Logos extends Component {
   render = () => (
-    <Container id="logos">
+    <Container className="mt-5" id="logos">
       <Row className="align-items-center justify-content-around">
         {[bilogos, ritten, otuuna, virtualting, hosthull, evenzza, nimbou].map((src, i) => (
           <Col xs="4" sm="3" md="2" lg="1" className="mb-3 mb-lg-none" key={`logos-${i}`}>

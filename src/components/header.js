@@ -6,21 +6,18 @@ import {
 
 // Asset imports
 import icon from 'assets/img/icon.png';
-// import logo from 'assets/img/logo.png';
+import logo from 'assets/img/logo.png';
 
 // Start && Export Component
 export default class Header extends Component {
-  render = () => {
-    const host = 'localhost:3000';
-
-    return (
+  render = () => (
       <header id="header">
-        <Navbar bg="white" expand="lg">
+        <Navbar bg="white" expand="lg" fixed="top">
           <Container>
             <Navbar.Brand href="#home">
               <picture>
-                <source media="(min-width:576px)" srcSet={`http://${host}/logo.png  1x`} />
-                <source srcSet={`http://${host}/icon50.png 1x`} />
+                <source media="(min-width:576px)" srcSet={`${logo} 1.2x`} />
+                <source srcSet={`${icon} 10x`} />
                 <img src={icon} alt="KoFoundMe Logo" className="d-inline-block align-top" />
               </picture>
             </Navbar.Brand>
@@ -41,6 +38,5 @@ export default class Header extends Component {
           </Container>
         </Navbar>
       </header>
-    );
-  };
+  );
 }

@@ -25,7 +25,7 @@ export default class Footer extends Component {
         <Row>
           <Col>
             <p className="text-white">
-              Copyright © 2020 Founder School by ASIN5. All Rights Reserved.
+              Copyright © 2020 KoFoundMe. All Rights Reserved.
               <br />
               Privacy Policy | Terms of Service
             </p>
