@@ -1,5 +1,7 @@
 # This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/26cc8b3f0f3c446fb8ba8a6bcf61c62f)](https://app.codacy.com/gh/kofoundme/pwa?utm_source=github.com&utm_medium=referral&utm_content=kofoundme/pwa&utm_campaign=Badge_Grade_Dashboard)
+
 <!-- TODO: Add Codacy badge here -->
 
 ## About
