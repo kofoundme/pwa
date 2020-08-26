@@ -4,6 +4,7 @@ import { Route, BrowserRouter as Router } from 'react-router-dom';
 
 // Component imports
 import Home from 'components/home';
+import Auth from 'components/auth';
 
 // Asset imports
 import 'assets/css/app.css';
@@ -13,6 +14,7 @@ export default class App extends React.Component {
   render = () => (
     <Router basename={`/${window.location.origin.includes('github') ? 'pwa' : ''}`}>
       <Route exact path="/" component={Home} />
+      <Route path={['/register', '/login']} component={Auth} />
     </Router>
   );
 }
