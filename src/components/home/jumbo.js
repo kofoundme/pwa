@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import {
   Container, Button, Jumbotron, Row, Col
 } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 // Start & Export Component
 export default class Jumbo extends Component {
@@ -16,11 +17,11 @@ export default class Jumbo extends Component {
               easily find shared vision and complementary skill-sets to help you co-found your
               business ideas...
             </p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPIPDIIhP7Cx2Jt-IIYlDyDSJqWinPmP5rXe8wIGM8EYIwHg/viewform">
+            <Link to="/register">
               <Button variant="danger" size="lg">
                 Find a co-founder
               </Button>
-            </a>
+            </Link>
           </Col>
         </Row>
       </Container>

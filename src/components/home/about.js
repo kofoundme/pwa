@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import {
   Container, Row, Col, Image, Button
 } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 // Asset imports
 import about from 'assets/svg/about.svg';
@@ -38,11 +39,11 @@ export default class About extends Component {
       </Row>
       <Row className="mt-5 justify-content-center text-center">
         <Col>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPIPDIIhP7Cx2Jt-IIYlDyDSJqWinPmP5rXe8wIGM8EYIwHg/viewform">
+          <Link to="/register">
             <Button size="lg" variant="danger">
               Get started
             </Button>
-          </a>
+          </Link>
         </Col>
       </Row>
     </Container>
