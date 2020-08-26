@@ -1,0 +1,7 @@
+[
+  { "label": "Tech role", "value": "tech" },
+  { "label": "Business development", "value": "business" },
+  { "label": "Operations", "value": "operations" },
+  { "label": "Finance", "value": "finance" },
+  { "label": "Legal", "value": "legal" }
+]
