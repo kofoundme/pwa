@@ -35,7 +35,7 @@ export default class Header extends Component {
                   Login
                 </Button>
               </Link>
-              <Button variant="danger">Register</Button>
+              <Link to="/register"><Button variant="danger">Register</Button></Link>
             </Form>
           </Navbar.Collapse>
         </Container>
