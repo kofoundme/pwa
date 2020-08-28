@@ -54,7 +54,7 @@ class RegisterForm extends Component {
           {this.state.buttonValue}
         </Button>
   ) : (
-        <Link to={to} type="button" className="btn">
+        <Link to={to} key={`contact-form-link${i}`} type="button" className="btn">
           {value}
         </Link>
   )));
