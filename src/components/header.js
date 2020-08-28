@@ -15,13 +15,13 @@ export default class Header extends Component {
     <header id="header">
       <Navbar bg="white" expand="lg" fixed="top">
         <Container>
-          <Navbar.Brand href="#home">
+          <Link to="/" className="navbar-brand">
             <picture>
               <source media="(min-width:768px)" srcSet={`${logo} 1.2x`} />
               <source srcSet={`${icon} 12x`} />
               <img src={icon} alt="KoFoundMe Logo" className="d-inline-block align-top" />
             </picture>
-          </Navbar.Brand>
+          </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto mr-3">

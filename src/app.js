@@ -12,7 +12,7 @@ import 'assets/css/app.css';
 // Start && Export Component
 export default class App extends React.Component {
   render = () => (
-    <Router basename={`${window.location.origin.includes('github') ? '/pwa' : ''}`}>
+    <Router basename={`${window.location.origin.includes('github') ? '' : ''}`}>
       <Route exact path="/" component={Home} />
       <Route path={['/register', '/login']} component={Auth} />
     </Router>
