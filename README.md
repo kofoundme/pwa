@@ -16,7 +16,6 @@ To easily find shared vision and complementary skill-sets to help you co-found y
 
 URL to deployed staging-app is below:
 
-[https://ko-found-me.netlify.app/index.html](production-build)
 <!-- Add staging app detail here -->
 Visit the above link to view it in your browser.
 
